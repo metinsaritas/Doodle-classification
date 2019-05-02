@@ -1,0 +1,16 @@
+{
+  "name": "doodle-classification",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "serve ./public",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "serve": "^11.0.0"
+  }
+}

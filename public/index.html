@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doodle Classification</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+    <script src="lib/matrix.js"></script>
+    <script src="lib/nn.js"></script>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+</head>
+<body>
+    <div class="canvas-holder">
+        <div class="sample-holder">
+            <button class="random"><u>R</u>andom</button>
+        </div>
+    </div>
+    <div class="action-holder">
+        <button class="clear" onclick="handleClear()"><u>C</u>lear</button>
+        <button class="guess" onclick="handleGuess()"><u>G</u>uess</button>
+        <button class="test" onclick="handleTest()"><u>T</u>est</button>
+        <button class="train" onclick="handleTrain()">Tr<u>a</u>in</button>
+    </div>
+
+    <script src="js/sketch.js"></script>
+    <script src="js/code.js"></script>
+</body>
+</html>
